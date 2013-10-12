@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+	background: #EEE;
+	font: 16px/1 Verdana, Arial, sans-serif;
+	padding: 40px;
+}
+
+ul, ol {
+	padding-left: 40px;
+	list-style-type: decimal !important; 
+}
+
+ul li{
+	list-style-type: circle; 
+}
+
+ul li ul li {
+	list-style-type: upper-roman;
+}
+
+p {
+	padiing-bottom: 20px; 
+}
+
+ul {
+	padding-bottom: 20px;
+}
+
+ol {
+	padding-bottom: 20px;
+}
+
+dl {
+	padding-bottom: 20px;
+}
+
+p, ol, ul, dl {
+	padding-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
